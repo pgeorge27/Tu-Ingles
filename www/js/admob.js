@@ -32,7 +32,8 @@
         initAd();
         // display the banner at startup
         AdMob.createBanner( {adId:admobid.banner} );
-        AdMob.prepareInterstitial({adId:admobid.interstitial, autoShow:true});
+        // Interstitial the banner at startup
+        // AdMob.prepareInterstitial({adId:admobid.interstitial, autoShow:true});
     }
 
     function initAd(){
